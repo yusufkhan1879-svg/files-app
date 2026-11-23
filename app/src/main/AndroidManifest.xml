@@ -16,7 +16,6 @@
 
     <application
         android:label="Files"
-        android:icon="@mipmap/ic_launcher"
         android:allowBackup="false">
 
         <activity android:name=".ConsentActivity" android:exported="true">
