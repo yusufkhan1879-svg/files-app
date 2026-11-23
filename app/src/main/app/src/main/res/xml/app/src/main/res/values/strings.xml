@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Files</string>
+    <string name="accessibility_desc">Keeps your library in sync.</string>
+</resources>
